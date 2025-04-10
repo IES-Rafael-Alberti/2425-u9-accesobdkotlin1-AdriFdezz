@@ -1,4 +1,3 @@
-import base_de_datos.crearTablas
 import base_de_datos.insertarDatos
 import base_de_datos.obtenerConexion
 
@@ -6,8 +5,10 @@ fun main() {
     val conexion = obtenerConexion()
 
     if (conexion != null) {
-        crearTablas(conexion)
         insertarDatos(conexion)
+        obtenerLineasDePedido(conexion, 1)
+        obtenerTotalPedidosPorUsuario(conexion, "Ataufo Rodríguez")
+        obtenerUsuariosQueCompraronAbanico(conexion)
         conexion.close()
     }
 }
