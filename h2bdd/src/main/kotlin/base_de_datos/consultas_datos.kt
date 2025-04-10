@@ -55,7 +55,7 @@ fun obtenerTotalPedidosPorUsuario(conexion: Connection, usuario: String): Double
     return total
 }
 
-fun obtenerUsuariosQueCompraronAbanico(conexion: Connection) {
+fun obtenerUsuariosCompraAbanico(conexion: Connection) {
     val query = """
         SELECT DISTINCT u.nombre
         FROM Usuario u
