@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/h2bdd/src/main/kotlin/actividad7/LineaDAO.kt" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/h2bdd/src/main/kotlin/actividad7/PedidoDAO.kt" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/h2bdd/src/main/kotlin/base_de_datos/conexionH2.kt" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/h2bdd/src/main/kotlin/base_de_datos/consultas_datos.kt" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/h2bdd/src/main/kotlin/base_de_datos/eliminar_datos.kt" dialect="GenericSQL" />
